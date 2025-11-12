@@ -1,4 +1,18 @@
-#vks{
-    display: flex;
-    flex-direction: row;
+/* Remove duplicate #vks */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Spacing below navbar */
+.book-container {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 40px auto;
+
 }
